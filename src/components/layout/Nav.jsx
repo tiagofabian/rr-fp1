@@ -7,7 +7,7 @@ const Nav = () => {
 
   const navLinks = [
     { name: "Inicio", href: "/" },
-    { name: "Catálogo", href: "/catalago" },
+    { name: "Catálogo", href: "/catalogo" },
     { name: "Nosotros", href: "/nosotros" },
     { name: "Contacto", href: "/contacto" },
   ];
@@ -17,8 +17,8 @@ const Nav = () => {
       <div className="container mx-auto px-6 md:px-12">
         <div className="flex h-20 items-center justify-between">
           {/* Logo */}
-          <a href="#inicio" className="text-2xl font-bold text-foreground">
-            Hoseki <span className="text-accent">Joyas</span>
+          <a href="/" className="text-2xl font-bold text-foreground">
+            <img src="/hoseki.png" alt="hoseki" class="w-36 h-36 object-contain" />
           </a>
 
           {/* Desktop Navigation */}

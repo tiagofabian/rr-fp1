@@ -21,9 +21,9 @@ const App = () => {
       <ToastContainer/>
       <Routes>
         <Route path="/" element={<Home />} />
-        {/* <Route path="/catalogo" element={<Catalog />} /> */}
-        <Route path="/contacto" element={<Contact />} />
+        <Route path="/catalogo" element={<Catalog />} />
         <Route path="/nosotros" element={<AboutUs />} />
+        <Route path="/contacto" element={<Contact />} />
 
         {/* Ruta para páginas no encontradas */}
         <Route path="*" element={<NotFound />} />
